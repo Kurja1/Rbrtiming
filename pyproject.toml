@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rbrtiming"
+version = "0.1.0"
+description = "RBR rallystat database parser and GUI"
+authors = ["Olli Kauppinen <kauppinen.olli@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyqt6 = "^6.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
